@@ -1,196 +1,414 @@
 
 
-/* Tablets & LAptop & PC Design: 
-==================================
-===================================*/
+
 @media screen and (min-width: 768px) {
 
-    body {
-        background-color: #ffffff;
-    }
 
     .page-cv {
-        width: 65%;
+        margin: auto;
+        max-width: 1190px;
+        height: 1684px;
         display: flex;
-        display: -webkit-flex;  /* Chrome 21-28| Safari 6.1-8| Opera 15| IOS 7-8.4  */
-        display: -ms-inline-flexbox;  /* IE 8-10 */
-        display: -ms-inline-flexbox
+        flex-direction: row;
     }
 
-    .sidebar {
-        background-color: #ffc800;
-        border-radius: 0;
-        border: none;
-        margin-top: 0;
+
+
+
+
+
+
+    /* === Main ==== */
+
+    .main{
         order: 1;
-        flex-basis: 35%;
-    }
+        flex-basis: 806px ;
+        padding-left: 66px;
 
-    #photo {
-        border-radius: 0;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 3.5em;
-        /* border: 0px solid #ddd; */
-        padding: 0px; 
-    }
-
-    .header-aside {
-        display: none;
-    }
-
-    .quote-sidebar {
-        display: none;
-    }
-
-    .main {
-        order: 2;
-        border: none;
-        flex-basis: 75%;
-        padding-left: 40px;
-        margin-top: 0;
+        display: flex;
+        flex-direction: column;
     }
 
 
-    .header-main {
-        display: block;
-        margin-top: 0.5em; 
+
+
+
+
+
+
+    header {
+        padding-top: 100px;
+        flex-basis: 332px;
     }
 
-     .main h3:nth-child(2){
-        padding: 10px 10px;
-        background-color: rgb(0, 0, 0);
-        color: white;
+
+    header #span-jessica {
+        font-family: 'Almarai', sans-serif;
+        font-size: 59px;
+        font-weight: lighter; 
+        color:#ffc800;
     }
     
 
-    .quote-main {
-        display: block;
-        margin: 1.5em;
-        background: #fbff09;
-        padding: 2em;
-        border-radius: 0.5em 3em;
-        text-align: justify;
-        quotes: '”' '”';
+    header #span-leroy {
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 300;
+        font-size: 65px;
+    }
+
+    header h3 {
+        color: #4a4a48; 
+        font-size:28px;
+        font-family: roboto;
+        font-weight: 300;
+    }
+
+    header #span-develo- {
+        border-bottom: 2px solid #ffc800;
+        
     }
 
 
 
 
-    /* span:nth-child(1) {
-        color: #ffc800;
-    }
-     */
-
-  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Tablets & LAptop & PC Design: 
-==================================
-===================================*/
-@media screen and (min-width: 768px) {
-
-    body {
-        background-color: #ffffff;
-    }
-
-    .page-cv {
-        width: 65%;
-        display: flex;
-        display: -webkit-flex;  /* Chrome 21-28| Safari 6.1-8| Opera 15| IOS 7-8.4  */
-        display: -ms-inline-flexbox;  /* IE 8-10 */
-        display: -ms-inline-flexbox
-    }
-
-    .sidebar {
-        background-color: #ffc800;
-        border-radius: 0;
-        border: none;
-        margin-top: 0;
-        order: 1;
-        flex-basis: 35%;
-    }
-
-    #photo {
-        border-radius: 0;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 3.5em;
-        /* border: 0px solid #ddd; */
-        padding: 0px; 
-    }
-
-    .header-aside {
-        display: none;
-    }
-
-    .quote-sidebar {
-        display: none;
-    }
-
-    .main {
-        order: 2;
-        border: none;
-        flex-basis: 75%;
-        padding-left: 40px;
-        margin-top: 0;
-    }
-
-
-    .header-main {
-        display: block;
-        margin-top: 0.5em; 
-    }
-
-     .main h3:nth-child(2){
-        padding: 10px 10px;
-        background-color: rgb(0, 0, 0);
-        color: white;
-    }
     
 
-    .quote-main {
-        display: block;
-        margin: 1.5em;
-        background: #fbff09;
-        padding: 2em;
-        border-radius: 0.5em 3em;
+    /* .formations h1, .experiences h1, .recommandations h1 {
+        color: #000000;
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        padding-top: 9px;
+    } */
+
+
+
+    #titre-formation {
+        flex-basis: 70px;
+        width: 696px;
+        border-bottom: 2px solid #ffc800;
+        
+    }
+
+    .formation-1 {
+        flex-basis:191px;
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
         text-align: justify;
-        quotes: '”' '”';
+
+        display: flex;
+        flex-direction: row;
+        padding-top: 47px;
+    }
+
+    .formation-1 div:nth-child(1) {
+        flex-basis: 246px;
+    }
+    .formation-1 div:nth-child(2) {
+        flex-basis: 450px;
+    }
+
+
+
+    .formation-1 div:nth-child(2) * {
+        padding-bottom: 18px;
+    }
+    .formation-1 div:nth-child(2) p {
+        letter-spacing: 1px;
+    }
+
+
+
+    .formation-2 {
+        flex-basis: 191px;
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+
+        display: flex;
+        flex-direction: row;
+        padding-top: 47px;
+    }
+
+    .formation-2 div:first-child {
+        flex-basis: 246px;
+    }
+
+    .formation-2 div:nth-child(2) {
+        flex-basis: 450px;
+    }
+
+    .formation-2 div:nth-child(2) * {
+        padding-bottom: 18px;
     }
 
 
 
 
-    /* span:nth-child(1) {
+
+
+
+    #titre-experience {
+        flex-basis:70px;
+        width: 696px;
+        border-bottom: 2px solid #ffc800;
+    }
+
+
+
+
+    .experience-1 {
+        flex-basis: 185px;
+        padding-top: 47px;
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .experience-1 div:first-child {
+        flex-basis: 246px;
+    }
+    .experience-1 div:nth-child(2) {
+        flex-basis: 450px;
+    }
+
+    .experience-1 div:nth-child(2) * {
+        padding-bottom: 18px;
+    }
+
+
+    .experience-2 {
+        flex-basis: 185px;
+        padding-top: 47px;
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .experience-2 div:first-child {
+        flex-basis: 246px;
+    }
+    .experience-2 div:nth-child(2) {
+        flex-basis: 450px;
+    }
+
+    .experience-2 div:nth-child(2) * {
+        padding-bottom: 18px;
+    }
+
+
+    .experience-3 {
+        flex-basis: 185px;
+        padding-top: 47px;
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .experience-3 div:first-child {
+        flex-basis: 246px;
+    }
+    .experience-3 div:nth-child(2) {
+        flex-basis: 450px;
+    }
+
+    .experience-3 div:nth-child(2) * {
+        padding-bottom: 18px;
+    }
+
+
+
+    #titre-recommandations {
+        width: 696px;
+        flex-basis: 70px;
+        border-bottom: 2px solid #ffc800;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    .recommandations {
+        flex-basis: 202px;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .recommandations .personne-1 {
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+        flex-basis: 348px;
+        padding-top: 37px;
+        
+    }
+
+    .recommandations .personne-2 {
+        flex-basis: 348px;
+        padding-top: 37px;
+                color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* === Lateral === */
+
+    .lateral {
+        order: 0;
+        flex-basis: 384px;
+        color:#4f4f4c ;
+        font-family: Helvetica, sans-serif;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cadre-photo{
+        flex-basis: 328px;
+        padding: 65px 80px 40px 80px;
+        border-top: 2px solid #dab048;
+        border-left: 2px solid #dab048;
+
+    }
+
+
+    img {
+        display: block;
+        height: 219px;
+        width: 214px;
+        /* margin: auto; */
+        border-radius: 50%;
+        border: 4px solid #e7ac0a;
+    }
+
+
+    h2#titre-contact, h2#titre-a-propos, h2#titre-loisirs  {
+        flex-basis: 48px;
+        text-align: center;
+        background-color: #424242;
         color: #ffc800;
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        padding-top: 9px;
+        border-left: 2px solid #686762;
     }
-     */
-
-  }
 
 
+    .contacts {
+        flex-basis: 344px;
+        color: #4a4a48;
+        border-left: 2px solid #dab048;
+
+    }
+
+
+    .contact {
+        flex: 1 0;
+    }
+
+    .contacts div {
+        padding-bottom: 20px;
+        padding-left: 49px;
+        font-weight: 500;
+    }
+
+    .adresse {
+        padding-top: 39px;
+    }
+
+
+
+    
+    .a-propos{
+        flex-basis: 732px;
+        padding: 39px 49px;
+        text-align: justify;
+        letter-spacing: 2px;
+        border-left: 2px solid #dab048;
+
+    }
+    
+    
+    .loisirs {
+        flex-basis: 134px;
+        border-left: 2px solid #dab048;
+        border-bottom: 2px solid #dab048;
+
+    }
 
 
 
 
 
 
-
-
-
-
-
+    
+}

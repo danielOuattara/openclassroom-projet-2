@@ -1,0 +1,196 @@
+
+
+/* Tablets & LAptop & PC Design: 
+==================================
+===================================*/
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .page-cv {
+        width: 65%;
+        display: flex;
+        display: -webkit-flex;  /* Chrome 21-28| Safari 6.1-8| Opera 15| IOS 7-8.4  */
+        display: -ms-inline-flexbox;  /* IE 8-10 */
+        display: -ms-inline-flexbox
+    }
+
+    .sidebar {
+        background-color: #ffc800;
+        border-radius: 0;
+        border: none;
+        margin-top: 0;
+        order: 1;
+        flex-basis: 35%;
+    }
+
+    #photo {
+        border-radius: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3.5em;
+        /* border: 0px solid #ddd; */
+        padding: 0px; 
+    }
+
+    .header-aside {
+        display: none;
+    }
+
+    .quote-sidebar {
+        display: none;
+    }
+
+    .main {
+        order: 2;
+        border: none;
+        flex-basis: 75%;
+        padding-left: 40px;
+        margin-top: 0;
+    }
+
+
+    .header-main {
+        display: block;
+        margin-top: 0.5em; 
+    }
+
+     .main h3:nth-child(2){
+        padding: 10px 10px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    
+
+    .quote-main {
+        display: block;
+        margin: 1.5em;
+        background: #fbff09;
+        padding: 2em;
+        border-radius: 0.5em 3em;
+        text-align: justify;
+        quotes: '”' '”';
+    }
+
+
+
+
+    /* span:nth-child(1) {
+        color: #ffc800;
+    }
+     */
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets & LAptop & PC Design: 
+==================================
+===================================*/
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .page-cv {
+        width: 65%;
+        display: flex;
+        display: -webkit-flex;  /* Chrome 21-28| Safari 6.1-8| Opera 15| IOS 7-8.4  */
+        display: -ms-inline-flexbox;  /* IE 8-10 */
+        display: -ms-inline-flexbox
+    }
+
+    .sidebar {
+        background-color: #ffc800;
+        border-radius: 0;
+        border: none;
+        margin-top: 0;
+        order: 1;
+        flex-basis: 35%;
+    }
+
+    #photo {
+        border-radius: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3.5em;
+        /* border: 0px solid #ddd; */
+        padding: 0px; 
+    }
+
+    .header-aside {
+        display: none;
+    }
+
+    .quote-sidebar {
+        display: none;
+    }
+
+    .main {
+        order: 2;
+        border: none;
+        flex-basis: 75%;
+        padding-left: 40px;
+        margin-top: 0;
+    }
+
+
+    .header-main {
+        display: block;
+        margin-top: 0.5em; 
+    }
+
+     .main h3:nth-child(2){
+        padding: 10px 10px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    
+
+    .quote-main {
+        display: block;
+        margin: 1.5em;
+        background: #fbff09;
+        padding: 2em;
+        border-radius: 0.5em 3em;
+        text-align: justify;
+        quotes: '”' '”';
+    }
+
+
+
+
+    /* span:nth-child(1) {
+        color: #ffc800;
+    }
+     */
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

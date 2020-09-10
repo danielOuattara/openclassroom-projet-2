@@ -66,7 +66,7 @@ body {
 
                     .header-responsive h1 .span-prenom{
                         font-family: 'Almarai', sans-serif;
-                        font-size: 9vw;
+                        font-size: 10vw;
                         font-weight: lighter; 
                         color:#ffc800;
                     }
@@ -74,12 +74,12 @@ body {
                     .header-responsive h1 .span-nom {
                         font-family: 'Yantramanav', sans-serif;
                         font-weight: 300;
-                        font-size: 9vw;
+                        font-size: 10vw;
                     }
 
                 .header-responsive h3 {
                     color: #4a4a48; 
-                    font-size:6vw;
+                    font-size:7vw;
                     font-family: roboto;
                     font-weight: 500;
                     border-top: 1px solid #ffc800;
@@ -102,7 +102,7 @@ body {
 
             .contacts {
                 order: 1;
-                font-size: 3.5vw;
+                font-size: 4vw;
             }
 
                         .contacts a {
@@ -127,7 +127,7 @@ body {
                         .contact .fa-envelope,
                         .contact .fa-github,
                         .contact .fa-linkedin {
-                            font-size: 5vw;
+                            font-size: 7vw;
                             padding: 10px;
                             color: #ffc800;
                         }
@@ -140,13 +140,13 @@ body {
             .a-propos {
                 order: 0;
                 padding: 1.975rem;
-                margin: 20px;
+                margin: 15px 0 20px 0;
                 text-align: justify;
                 letter-spacing: 1px;
                 border: 1px solid transparent;
                 background-color: #ffc800;
                 border-radius:  10px 3.125rem;
-                font-size: 20px;
+                font-size: 4.4vw;
                 font-style: italic;
             }
 
@@ -179,7 +179,7 @@ body {
             margin: 35px 0;
             font-family: 'Yantramanav', sans-serif;
             font-weight: 300;
-            font-size: 7vw;
+            font-size: 6.5vw;
             border-bottom: 5px solid #ffc800;
             border-radius:  15px;
             background-color: #424242;
@@ -193,7 +193,7 @@ body {
                 .fa-graduation-cap,
                 .fa-briefcase,
                 .fa-pencil-alt {
-                    font-size:6vw;
+                    font-size:6.5vw;
                     color: #ffc800; 
                 }
 
@@ -224,7 +224,7 @@ body {
                     .experience-3 div:nth-child(1) p:first-child:before, 
                     .experience-4 div:nth-child(1) p:first-child:before  {
                         content:'\25CF'; 
-                        font-size:20px; 
+                        font-size:4vw; 
                         font-weight: bold;
                         line-height:24px; 
                         vertical-align:middle;
@@ -249,7 +249,7 @@ body {
                         font-style: italic;
                         display: inline;
                         border-bottom: 2px solid #ffc800;
-                        font-size: 20px;
+                        font-size: 4vw;
                     }
 
                 .formation-1 div:nth-child(1),
@@ -275,7 +275,7 @@ body {
                     .experience-2 div:nth-child(2) h3,
                     .experience-3 div:nth-child(2) h3,
                     .experience-4 div:nth-child(2) h3 {
-                        font-size: 24px;
+                        font-size: 5.5vw;
                     }
 
                 .formation-1  p,
@@ -285,7 +285,7 @@ body {
                 .experience-2 p,
                 .experience-3 p,
                 .experience-4 p {
-                    font-size: 20px;
+                    font-size: 4.5vw;
                 }
 
                     .formation-1 div:nth-child(2) *,
@@ -301,11 +301,11 @@ body {
         .recommandations {
             flex: 1;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
         }
 
             .recommandations p {
-                font-size: 20px
+                font-size: 4.5vw;
             }
             
             .recommandations .personne {

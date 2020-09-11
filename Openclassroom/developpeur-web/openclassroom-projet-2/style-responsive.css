@@ -1,6 +1,5 @@
 
 
-
 body {
     background-color: #424242;
     
@@ -304,6 +303,9 @@ body {
             flex-direction: column;
         }
 
+            .recommandations h4 {
+                font-size: 4.5vw;
+            }
             .recommandations p {
                 font-size: 4.5vw;
             }

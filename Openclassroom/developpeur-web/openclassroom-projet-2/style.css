@@ -297,6 +297,10 @@
                 flex-direction: row;
             }
 
+            .recommandations h4 {
+                font-size: 19px;
+            }
+
                 .recommandations .personne {
                     color:#4f4f4c ;
                     flex: auto;
@@ -307,6 +311,5 @@
                 .recommandations p {
                     font-size: 16px
                 }
-
         
 }

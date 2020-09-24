@@ -196,13 +196,8 @@ body {
                     color: #ffc800; 
                 }
 
-        .formation-1, 
-        .formation-2, 
-        .formation-3,
-        .experience-1,
-        .experience-2,
-        .experience-3, 
-        .experience-4 {
+
+        .formation, .experience {
                 color:#4f4f4c ;
                 font-family: Helvetica, sans-serif;
                 margin-bottom: 25px;
@@ -214,14 +209,8 @@ body {
                 display: none;
             }
             
-                    .formation-1 div:nth-child(1) p:first-child:before,
-                    .formation-2 div:nth-child(1) p:first-child:before,
-                    .formation-3 div:nth-child(1) p:first-child:before, 
-                    .experience-1 div:nth-child(1) p:first-child:before,
-                    .experience-2 div:nth-child(1) p:first-child:before,
-                    .experience-3 div:nth-child(1) p:first-child:before, 
-                    .experience-3 div:nth-child(1) p:first-child:before, 
-                    .experience-4 div:nth-child(1) p:first-child:before  {
+                    .formation div:nth-child(1) p:first-child:before,
+                    .experience div:nth-child(1) p:first-child:before  {
                         content:'\25CF'; 
                         font-size:4vw; 
                         font-weight: bold;
@@ -237,13 +226,8 @@ body {
                 content:'\25C9'; 
             }
 
-                    .formation-1 div:nth-child(1) p:first-child,
-                    .formation-2 div:nth-child(1) p:first-child,
-                    .formation-3 div:nth-child(1) p:first-child,
-                    .experience-1 div:nth-child(1) p:first-child,
-                    .experience-2 div:nth-child(1) p:first-child,
-                    .experience-3 div:nth-child(1) p:first-child, 
-                    .experience-4 div:nth-child(1) p:first-child {
+                    .formation div:nth-child(1) p:first-child, 
+                    .experience div:nth-child(1) p:first-child {
                         padding-bottom: 5px;
                         font-style: italic;
                         display: inline;
@@ -251,49 +235,29 @@ body {
                         font-size: 4vw;
                     }
 
-                .formation-1 div:nth-child(1),
-                .formation-2 div:nth-child(1),
-                .formation-3 div:nth-child(1)  {
+
+                .formation div:nth-child(1)  {
                     padding-bottom: 10px;
                 }
-                .formation-1 div:nth-child(2),
-                .formation-2 div:nth-child(2),
-                .formation-3 div:nth-child(2),
-                .experience-1 div:nth-child(2), 
-                .experience-2 div:nth-child(2),
-                .experience-3 div:nth-child(2),
-                .experience-4 div:nth-child(2)   {
+                
+                .formation div:nth-child(2),
+                .experience div:nth-child(2)   {
                     padding-left: 20px;
                     padding-top: 10px;
                 }
 
-                    .formation-1 div:nth-child(2) h3,
-                    .formation-2 div:nth-child(2) h3,
-                    .formation-3 div:nth-child(2) h3,
-                    .experience-1 div:nth-child(2) h3,
-                    .experience-2 div:nth-child(2) h3,
-                    .experience-3 div:nth-child(2) h3,
-                    .experience-4 div:nth-child(2) h3 {
+                    .formation div:nth-child(2) h3,
+                    .experience div:nth-child(2) h3 {
                         font-size: 5.5vw;
                     }
 
-                .formation-1  p,
-                .formation-2  p,
-                .formation-3  p,
-                .experience-1 p,
-                .experience-2 p,
-                .experience-3 p,
-                .experience-4 p {
+                .formation  p,
+                .experience p {
                     font-size: 4.5vw;
                 }
 
-                    .formation-1 div:nth-child(2) *,
-                    .formation-2 div:nth-child(2) *,
-                    .formation-3 div:nth-child(2) *,
-                    .experience-1 div:nth-child(2) *,
-                    .experience-2 div:nth-child(2) *,
-                    .experience-3 div:nth-child(2) *,
-                    .experience-4 div:nth-child(2) * {
+                    .formation div:nth-child(2) *,
+                    .experience div:nth-child(2) * {
                         padding-bottom: 18px;
                     }
 

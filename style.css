@@ -41,9 +41,9 @@
             }
 
 
-        h2#titre-contact, 
-        h2#titre-a-propos, 
-        h2#titre-loisirs  {
+        h2.titre-contact, 
+        h2.titre-a-propos, 
+        h2.titre-loisirs  {
             order: 0;
             margin: 0;
             display: block;
@@ -69,11 +69,8 @@
             font-size: 16px;
         }
 
-            .contacts #titre-adresse, 
-            .contacts #titre-telephone, 
-            .contacts #titre-email, 
-            .contacts #titre-github, 
-            .contacts #titre-linkedin {
+ 
+            .contacts .coordonnees {
                 display: block;
             } 
 
@@ -82,11 +79,7 @@
                 font-weight: 500;
             }
 
-            .contact .fa-home,
-            .contact .fa-phone-square,
-            .contact .fa-envelope,
-            .contact .fa-github,
-            .contact .fa-linkedin {
+            .contact .icones-coordonnees {
                 display: none;
             }
 
@@ -173,9 +166,7 @@
                         border-bottom: 2px solid #ffc800;
                     }
 
-            #titre-formation,
-            #titre-experience,
-            #titre-recommandations {
+            .titres-main {
                 font-family: 'yantramanav', 'sans-serif';
                 font-size: 32px;
                 font-weight: 400;
@@ -189,9 +180,7 @@
                 
             }
 
-            .fa-graduation-cap,
-            .fa-briefcase,
-            .fa-pencil-alt {
+            .icones-main {
                 font-size:38px;
             }
 
@@ -203,8 +192,6 @@
                 .retour-ligne {
                     display: inline;
                 }
-
-
 
                 .formation div:nth-child(1) p:first-child:before,
                 .experience div:nth-child(1) p:first-child:before {
@@ -268,6 +255,5 @@
 
                 .recommandations p {
                     font-size: 16px
-                }
-        
+                }    
 }

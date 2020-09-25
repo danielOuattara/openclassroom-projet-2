@@ -42,8 +42,7 @@
 
 
         h2.titre-contact, 
-        h2.titre-a-propos, 
-        h2.titre-loisirs  {
+        h2.titres-aside-nonresponsive {
             order: 0;
             margin: 0;
             display: block;
